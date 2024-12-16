@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: PT Sans;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+    border-bottom: 0.1rem solid #000;
+    background: rgb(255, 255, 255);
+    opacity: 95%;
+    z-index: 1000;
+  }
+
+  .logo img {
+    height: 100px; 
+    filter: invert();
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    transition:0.1s;
+  }
+  
+  nav ul li a:hover{
+    font-size: 1.1rem;
+    color: #FDBE9F;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    padding-top: 10px;
+    height: 20%;
+  }
+  
+  .boite {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #121212;
+  }
+  
+  .contenu {
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+  }
+  
+  .contenu ul {
+    text-align: center;
+    list-style: none;
+  }
+  
+  .list {
+    padding: 0;
+  
+  }
+  
+  .list li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 7px;
+    position: relative;
+  }
+  
+  .list li a {
+    text-decoration: none;
+    color: #121212;
+    font-size: 13px;
+    transition: ease-out 0.1s;
+  }
+  
+  .list2 {
+    padding: 0;
+  }
+  
+  .list2 li {
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 7px;
+    position: relative;
+  }
+  
+  .list2 li a {
+    text-decoration: none;
+    color: #121212;
+    font-size: 20px;
+    transition: ease-out 0.1s;
+    opacity: 75%;
+  }
+  
+  .list li a:hover {
+    font-size: 15px;
+    font-weight: 550;
+    color:#FDBE9F;
+  }
+  
+  .list2 li a:hover {
+    opacity: 1;
+    color: #FDBE9F;
+  }
